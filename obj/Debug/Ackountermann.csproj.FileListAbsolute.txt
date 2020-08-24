@@ -1,0 +1,11 @@
+C:\Users\mason\source\repos\Ackountermann\bin\Debug\Ackountermann.exe.config
+C:\Users\mason\source\repos\Ackountermann\bin\Debug\Ackountermann.exe
+C:\Users\mason\source\repos\Ackountermann\bin\Debug\Ackountermann.pdb
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.csprojAssemblyReference.cache
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.Properties.Resources.resources
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.csproj.GenerateResource.cache
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.csproj.CoreCompileInputs.cache
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.exe
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.pdb
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.homeForm.resources
+C:\Users\mason\source\repos\Ackountermann\obj\Debug\Ackountermann.vendorInputForm.resources

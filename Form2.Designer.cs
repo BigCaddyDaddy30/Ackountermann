@@ -39,6 +39,12 @@
             this.txtVendorName = new System.Windows.Forms.TextBox();
             this.txtVendorAddress = new System.Windows.Forms.TextBox();
             this.txtVendorPhone = new System.Windows.Forms.TextBox();
+            this.lblCity = new System.Windows.Forms.Label();
+            this.lblState = new System.Windows.Forms.Label();
+            this.lblZipcode = new System.Windows.Forms.Label();
+            this.txtZipcode = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtState = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnSave
@@ -68,7 +74,7 @@
             // 
             this.lblVendorID.AutoSize = true;
             this.lblVendorID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVendorID.Location = new System.Drawing.Point(197, 111);
+            this.lblVendorID.Location = new System.Drawing.Point(197, 19);
             this.lblVendorID.Name = "lblVendorID";
             this.lblVendorID.Size = new System.Drawing.Size(86, 20);
             this.lblVendorID.TabIndex = 2;
@@ -78,7 +84,7 @@
             // 
             this.lblVendorName.AutoSize = true;
             this.lblVendorName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVendorName.Location = new System.Drawing.Point(172, 175);
+            this.lblVendorName.Location = new System.Drawing.Point(172, 83);
             this.lblVendorName.Name = "lblVendorName";
             this.lblVendorName.Size = new System.Drawing.Size(111, 20);
             this.lblVendorName.TabIndex = 3;
@@ -88,7 +94,7 @@
             // 
             this.lblVendorAddress.AutoSize = true;
             this.lblVendorAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVendorAddress.Location = new System.Drawing.Point(211, 232);
+            this.lblVendorAddress.Location = new System.Drawing.Point(211, 148);
             this.lblVendorAddress.Name = "lblVendorAddress";
             this.lblVendorAddress.Size = new System.Drawing.Size(72, 20);
             this.lblVendorAddress.TabIndex = 4;
@@ -98,7 +104,7 @@
             // 
             this.lblVendorPhone.AutoSize = true;
             this.lblVendorPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVendorPhone.Location = new System.Drawing.Point(164, 290);
+            this.lblVendorPhone.Location = new System.Drawing.Point(164, 401);
             this.lblVendorPhone.Name = "lblVendorPhone";
             this.lblVendorPhone.Size = new System.Drawing.Size(119, 20);
             this.lblVendorPhone.TabIndex = 5;
@@ -106,31 +112,82 @@
             // 
             // txtVendorID
             // 
-            this.txtVendorID.Location = new System.Drawing.Point(285, 111);
+            this.txtVendorID.Location = new System.Drawing.Point(289, 21);
             this.txtVendorID.Name = "txtVendorID";
             this.txtVendorID.Size = new System.Drawing.Size(346, 20);
             this.txtVendorID.TabIndex = 6;
             // 
             // txtVendorName
             // 
-            this.txtVendorName.Location = new System.Drawing.Point(285, 177);
+            this.txtVendorName.Location = new System.Drawing.Point(289, 85);
             this.txtVendorName.Name = "txtVendorName";
             this.txtVendorName.Size = new System.Drawing.Size(346, 20);
             this.txtVendorName.TabIndex = 7;
             // 
             // txtVendorAddress
             // 
-            this.txtVendorAddress.Location = new System.Drawing.Point(285, 234);
+            this.txtVendorAddress.Location = new System.Drawing.Point(289, 150);
             this.txtVendorAddress.Name = "txtVendorAddress";
             this.txtVendorAddress.Size = new System.Drawing.Size(346, 20);
             this.txtVendorAddress.TabIndex = 8;
             // 
             // txtVendorPhone
             // 
-            this.txtVendorPhone.Location = new System.Drawing.Point(285, 292);
+            this.txtVendorPhone.Location = new System.Drawing.Point(289, 403);
             this.txtVendorPhone.Name = "txtVendorPhone";
             this.txtVendorPhone.Size = new System.Drawing.Size(346, 20);
             this.txtVendorPhone.TabIndex = 9;
+            // 
+            // lblCity
+            // 
+            this.lblCity.AutoSize = true;
+            this.lblCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCity.Location = new System.Drawing.Point(244, 214);
+            this.lblCity.Name = "lblCity";
+            this.lblCity.Size = new System.Drawing.Size(39, 20);
+            this.lblCity.TabIndex = 10;
+            this.lblCity.Text = "City:";
+            // 
+            // lblState
+            // 
+            this.lblState.AutoSize = true;
+            this.lblState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblState.Location = new System.Drawing.Point(231, 275);
+            this.lblState.Name = "lblState";
+            this.lblState.Size = new System.Drawing.Size(52, 20);
+            this.lblState.TabIndex = 11;
+            this.lblState.Text = "State:";
+            // 
+            // lblZipcode
+            // 
+            this.lblZipcode.AutoSize = true;
+            this.lblZipcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblZipcode.Location = new System.Drawing.Point(213, 341);
+            this.lblZipcode.Name = "lblZipcode";
+            this.lblZipcode.Size = new System.Drawing.Size(70, 20);
+            this.lblZipcode.TabIndex = 12;
+            this.lblZipcode.Text = "Zipcode:";
+            // 
+            // txtZipcode
+            // 
+            this.txtZipcode.Location = new System.Drawing.Point(289, 343);
+            this.txtZipcode.Name = "txtZipcode";
+            this.txtZipcode.Size = new System.Drawing.Size(346, 20);
+            this.txtZipcode.TabIndex = 13;
+            // 
+            // txtCity
+            // 
+            this.txtCity.Location = new System.Drawing.Point(289, 216);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(346, 20);
+            this.txtCity.TabIndex = 14;
+            // 
+            // txtState
+            // 
+            this.txtState.Location = new System.Drawing.Point(289, 277);
+            this.txtState.Name = "txtState";
+            this.txtState.Size = new System.Drawing.Size(346, 20);
+            this.txtState.TabIndex = 15;
             // 
             // vendorInputForm
             // 
@@ -140,6 +197,12 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtState);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtZipcode);
+            this.Controls.Add(this.lblZipcode);
+            this.Controls.Add(this.lblState);
+            this.Controls.Add(this.lblCity);
             this.Controls.Add(this.txtVendorPhone);
             this.Controls.Add(this.txtVendorAddress);
             this.Controls.Add(this.txtVendorName);
@@ -172,5 +235,11 @@
         private System.Windows.Forms.TextBox txtVendorName;
         private System.Windows.Forms.TextBox txtVendorAddress;
         private System.Windows.Forms.TextBox txtVendorPhone;
+        private System.Windows.Forms.Label lblCity;
+        private System.Windows.Forms.Label lblState;
+        private System.Windows.Forms.Label lblZipcode;
+        private System.Windows.Forms.TextBox txtZipcode;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtState;
     }
 }
